@@ -805,6 +805,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ce713b4528fd404385666d9ee13458f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FadeLogoObject: {fileID: 1233435933}
+  Logo1: {fileID: 1386166284}
+  Logo2: {fileID: 1318777506}
+  Logo3: {fileID: 1551104219}
 --- !u!1 &1019412907
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,7 +1270,7 @@ Transform:
   m_GameObject: {fileID: 1233435933}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 20, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1306,7 +1310,7 @@ GameObject:
   - component: {fileID: 1318777507}
   - component: {fileID: 1318777506}
   m_Layer: 5
-  m_Name: Logo (1)
+  m_Name: Presents
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1906,7 +1910,7 @@ GameObject:
   - component: {fileID: 1551104220}
   - component: {fileID: 1551104219}
   m_Layer: 5
-  m_Name: Logo (2)
+  m_Name: ProjectName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
