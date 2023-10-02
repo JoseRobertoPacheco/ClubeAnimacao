@@ -39,7 +39,16 @@ public class SequencePlayer : MonoBehaviour
 
         Logo1.gameObject.SetActive(false);
         Logo2.gameObject.SetActive(false);
+
+		void UpdateTextColor(Color color)
+		{
+			Logo3.color = color;
+		}
+
+		Logo3.color = new Color(1, 1, 1, 0f);
         Logo3.gameObject.SetActive(true);
+
+		LeanTween.value(gameObject, UpdateTextColor, Logo3.color, new Color(1, 1, 1, 1f), 2);
     }
 
 	// Update is called once per frame
